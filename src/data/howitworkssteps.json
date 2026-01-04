@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "1",
+    "title": "Data Ingestion",
+    "description": "Securely connect your Stripe account and AI provider APIs. We automatically pull transaction data, cost metrics, and usage patterns in real-time.",
+    "icon": "https://via.placeholder.com/100x100/64FFDA/000000?text=1",
+    "stepNumber": 1,
+    "callToActionText": "Connect Accounts"
+  },
+  {
+    "_id": "2",
+    "title": "AI-Powered Analysis",
+    "description": "Our advanced algorithms analyze every transaction, attributing costs to specific users and features while identifying profitability patterns and optimization opportunities.",
+    "icon": "https://via.placeholder.com/100x100/64FFDA/000000?text=2",
+    "stepNumber": 2,
+    "callToActionText": "View Analysis"
+  },
+  {
+    "_id": "3",
+    "title": "Actionable Insights",
+    "description": "Receive comprehensive dashboards, automated alerts, and strategic recommendations to improve your unit economics and scale profitably.",
+    "icon": "https://via.placeholder.com/100x100/64FFDA/000000?text=3",
+    "stepNumber": 3,
+    "callToActionText": "Get Insights"
+  }
+]

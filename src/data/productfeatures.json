@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "1",
+    "title": "Real-Time Cost Attribution",
+    "shortDescription": "Track every AI API call to specific users and features",
+    "description": "Automatically attribute AI costs to individual users, features, and customer segments with millisecond precision. See exactly which parts of your product are driving profitability.",
+    "icon": "https://via.placeholder.com/64x64/64FFDA/000000?text=1",
+    "learnMoreUrl": "/features/cost-attribution",
+    "isNew": true
+  },
+  {
+    "_id": "2",
+    "title": "Unit Economics Dashboard",
+    "shortDescription": "Comprehensive view of customer profitability metrics",
+    "description": "Get a complete picture of your unit economics with automated LTV/CAC calculations, churn impact analysis, and profitability forecasting.",
+    "icon": "/images/data-processing.png",
+    "learnMoreUrl": "/features/dashboard",
+    "isNew": false
+  },
+  {
+    "_id": "3",
+    "title": "Automated Alerts",
+    "shortDescription": "Get notified when profitability metrics change",
+    "description": "Set up intelligent alerts for cost spikes, profitability drops, or unusual usage patterns. Never miss a critical business metric again.",
+    "icon": "/images/data-processing.png",
+    "learnMoreUrl": "/features/alerts",
+    "isNew": false
+  },
+  {
+    "_id": "4",
+    "title": "Multi-Provider Support",
+    "shortDescription": "Works with all major AI providers",
+    "description": "Seamlessly integrate with OpenAI, Anthropic, Google AI, Azure OpenAI, and more. Our unified interface handles all providers simultaneously.",
+    "icon": "/images/data-processing.png",
+    "learnMoreUrl": "/features/multi-provider",
+    "isNew": false
+  },
+  {
+    "_id": "5",
+    "title": "Enterprise Security",
+    "shortDescription": "Bank-grade security and compliance",
+    "description": "SOC 2 Type II compliant with end-to-end encryption, audit logs, and enterprise-grade security measures to protect your sensitive data.",
+    "icon": "/images/data-processing.png",
+    "learnMoreUrl": "/features/security",
+    "isNew": false
+  },
+  {
+    "_id": "6",
+    "title": "API & Webhooks",
+    "shortDescription": "Integrate profitability data into your systems",
+    "description": "Access all profitability metrics via REST API or webhooks. Integrate with your existing BI tools, Slack notifications, and internal dashboards.",
+    "icon": "/images/data-processing.png",
+    "learnMoreUrl": "/features/api",
+    "isNew": true
+  }
+]

@@ -1,0 +1,37 @@
+
+> monito-ai@1.0.0 build
+> astro build
+
+08:09:10 [vite] Re-optimizing dependencies because vite config has changed
+08:09:10 [content] Syncing content
+08:09:10 [content] Synced content
+08:09:10 [types] Generated 913ms
+08:09:10 [build] output: "static"
+08:09:10 [build] mode: "static"
+08:09:10 [build] directory: C:\Users\Admin\Downloads\Last Monito AI\Monito AI By WIX\Econ-AI-main\v1 Monito AI\Econ-AI-main\Econ-AI-main\dist\
+08:09:10 [build] Collecting build info...
+08:09:10 [build] ✓ Completed in 1.28s.
+08:09:10 [build] Building static entrypoints...
+Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+08:09:19 [vite] [32m✓ built in 8.00s[39m
+08:09:19 [build] ✓ Completed in 8.16s.
+
+ building client (vite) 
+08:09:19 [vite] transforming...
+08:09:43 [vite] [32m✓[39m 2019 modules transformed.
+08:09:44 [vite] rendering chunks...
+08:09:44 [vite] computing gzip size...
+08:09:44 [vite] [2mdist/[22m[36m_astro/client.CMAN7OSt.js    [39m[1m[2m  1.84 kB[22m[1m[22m[2m │ gzip:  0.91 kB[22m
+08:09:44 [vite] [2mdist/[22m[36m_astro/index.nVL_Y2cu.js     [39m[1m[2m142.16 kB[22m[1m[22m[2m │ gzip: 45.66 kB[22m
+08:09:44 [vite] [2mdist/[22m[36m_astro/HomePage.Cxjxf_JH.js  [39m[1m[2m201.14 kB[22m[1m[22m[2m │ gzip: 63.95 kB[22m
+08:09:44 [vite] [32m✓ built in 25.47s[39m
+
+ generating static routes 
+08:09:47 ▶ src/pages/index.astro
+08:09:47   └─ /index.html (+95ms) 
+08:09:47 ✓ Completed in 2.60s.
+
+08:09:47 [build] 1 page(s) built in 37.62s
+08:09:47 [build] Complete!

@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "1",
+    "question": "What is Monito AI?",
+    "answer": "Monito AI is a comprehensive profitability tracking platform that integrates with your Stripe revenue and AI provider costs to provide real-time unit economics analysis for SaaS businesses.",
+    "category": "General",
+    "displayOrder": 1,
+    "isPublished": true
+  },
+  {
+    "_id": "2",
+    "question": "How does it integrate with Stripe?",
+    "answer": "Our platform securely connects to your Stripe account via API to automatically pull revenue data, transaction details, and customer information for accurate profitability calculations.",
+    "category": "Integration",
+    "displayOrder": 2,
+    "isPublished": true
+  },
+  {
+    "_id": "3",
+    "question": "What AI providers do you support?",
+    "answer": "We support all major AI providers including OpenAI, Anthropic, Google AI, Azure OpenAI, and others. Our system automatically detects and categorizes costs from these providers.",
+    "category": "Integration",
+    "displayOrder": 3,
+    "isPublished": true
+  },
+  {
+    "_id": "4",
+    "question": "How accurate is the profitability tracking?",
+    "answer": "Our algorithms achieve 99.9% accuracy in cost attribution and profitability calculations, with real-time updates and comprehensive audit trails.",
+    "category": "Features",
+    "displayOrder": 4,
+    "isPublished": true
+  },
+  {
+    "_id": "5",
+    "question": "Is my data secure?",
+    "answer": "Yes, we use enterprise-grade encryption, SOC 2 compliance, and never store your raw payment data. All processing happens in secure, isolated environments.",
+    "category": "Security",
+    "displayOrder": 5,
+    "isPublished": true
+  }
+]

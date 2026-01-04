@@ -1,0 +1,39 @@
+
+> monito-ai@1.0.0 build
+> astro build
+
+07:50:11 [vite] Re-optimizing dependencies because vite config has changed
+07:50:14 [content] Syncing content
+07:50:14 [content] Synced content
+07:50:14 [types] Generated 3.94s
+07:50:14 [build] output: "static"
+07:50:14 [build] mode: "static"
+07:50:14 [build] directory: C:\Users\Admin\Downloads\Last Monito AI\Monito AI By WIX\Econ-AI-main\v1 Monito AI\Econ-AI-main\Econ-AI-main\dist\
+07:50:14 [build] Collecting build info...
+07:50:14 [build] ✓ Completed in 5.40s.
+07:50:14 [build] Building static entrypoints...
+Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+07:50:25 [vite] [32m✓ built in 10.34s[39m
+07:50:25 [build] ✓ Completed in 10.80s.
+
+ building client (vite) 
+07:50:25 [vite] transforming...
+07:50:41 [vite] [32m✓[39m 2019 modules transformed.
+07:50:42 [vite] rendering chunks...
+07:50:42 [vite] computing gzip size...
+07:50:42 [vite] [2mdist/[22m[36m_astro/client.CMAN7OSt.js    [39m[1m[2m  1.84 kB[22m[1m[22m[2m │ gzip:  0.91 kB[22m
+07:50:42 [vite] [2mdist/[22m[36m_astro/index.nVL_Y2cu.js     [39m[1m[2m142.16 kB[22m[1m[22m[2m │ gzip: 45.66 kB[22m
+07:50:42 [vite] [2mdist/[22m[36m_astro/HomePage.CB5NhVDO.js  [39m[1m[2m201.14 kB[22m[1m[22m[2m │ gzip: 63.95 kB[22m
+07:50:42 [vite] [32m✓ built in 17.02s[39m
+
+ generating static routes 
+07:50:44 ▶ src/pages/index.astro
+07:50:44   └─ /index.htmlLink is not defined
+  Stack trace:
+    at Header (file:///C:/Users/Admin/Downloads/Last%20Monito%20AI/Monito%20AI%20By%20WIX/Econ-AI-main/v1%20Monito%20AI/Econ-AI-main/Econ-AI-main/dist/pages/index.astro.mjs?time=1767493242767:27:28)
+    at Xc (C:\Users\Admin\Downloads\Last Monito AI\Monito AI By WIX\Econ-AI-main\node_modules\react-dom\cjs\react-dom-server.node.production.min.js:72:253)
+    at Yc (C:\Users\Admin\Downloads\Last Monito AI\Monito AI By WIX\Econ-AI-main\node_modules\react-dom\cjs\react-dom-server.node.production.min.js:81:98)
+    at Z (C:\Users\Admin\Downloads\Last Monito AI\Monito AI By WIX\Econ-AI-main\node_modules\react-dom\cjs\react-dom-server.node.production.min.js:78:345)
+    at Xc (C:\Users\Admin\Downloads\Last Monito AI\Monito AI By WIX\Econ-AI-main\node_modules\react-dom\cjs\react-dom-server.node.production.min.js:73:145)

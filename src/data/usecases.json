@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "1",
+    "title": "AI-Powered SaaS Founders",
+    "descriptionPoint1": "Track profitability per user across multiple AI models and providers",
+    "descriptionPoint2": "Identify which features drive the highest margins",
+    "descriptionPoint3": "Optimize pricing tiers based on actual cost data",
+    "illustration": "/images/ai-saas-founders.jpg"
+  },
+  {
+    "_id": "2",
+    "title": "Product Managers",
+    "descriptionPoint1": "Monitor feature adoption and its impact on profitability",
+    "descriptionPoint2": "Make data-driven decisions about feature development",
+    "descriptionPoint3": "Understand customer segments by profitability",
+    "illustration": "/images/product-managers.jpg"
+  },
+  {
+    "_id": "3",
+    "title": "Financial Operations Teams",
+    "descriptionPoint1": "Real-time unit economics visibility",
+    "descriptionPoint2": "Automated financial reporting and forecasting",
+    "descriptionPoint3": "Cost control and budget management",
+    "illustration": "/images/financial-ops.jpg"
+  }
+]

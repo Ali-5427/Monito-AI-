@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "1",
+    "tierName": "Starter",
+    "price": 49,
+    "priceUnit": "month",
+    "description": "Perfect for early-stage startups getting started with AI cost tracking",
+    "features": "Up to 1,000 users\nBasic profitability reports\nEmail support\nStripe integration",
+    "callToActionText": "Start Free Trial",
+    "callToActionUrl": "/signup?plan=starter",
+    "isMostPopular": false
+  },
+  {
+    "_id": "2",
+    "tierName": "Professional",
+    "price": 149,
+    "priceUnit": "month",
+    "description": "Advanced analytics for growing SaaS businesses",
+    "features": "Up to 10,000 users\nAdvanced dashboards\nAPI access\nPriority support\nCustom integrations\nAutomated alerts",
+    "callToActionText": "Start Free Trial",
+    "callToActionUrl": "/signup?plan=professional",
+    "isMostPopular": true
+  },
+  {
+    "_id": "3",
+    "tierName": "Enterprise",
+    "price": 499,
+    "priceUnit": "month",
+    "description": "Complete solution for large-scale operations",
+    "features": "Unlimited users\nWhite-label solution\nDedicated success manager\nCustom reporting\nSSO integration\n24/7 phone support\nOn-premise deployment option",
+    "callToActionText": "Contact Sales",
+    "callToActionUrl": "/contact",
+    "isMostPopular": false
+  }
+]
