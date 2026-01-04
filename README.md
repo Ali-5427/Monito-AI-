@@ -1,21 +1,20 @@
-# Wixstro - Wix Astro Template
+# Monito AI
 
-A modern, full-featured Wix Astro template built with React, TypeScript, and Tailwind CSS. This template provides a solid foundation for building dynamic, interactive websites with Wix's powerful ecosystem.
+An AI-powered monitoring and analytics platform built with modern web technologies. Monito AI provides intelligent insights, real-time data visualization, and automated monitoring capabilities to help businesses make data-driven decisions.
 
 ## 🚀 Features
 
-- **Astro Framework** - Modern static site generator with server-side rendering
-- **React Integration** - Full React support with JSX components
-- **TypeScript** - Type-safe development experience
-- **Tailwind CSS** - Utility-first CSS framework with custom components
-- **Wix Integration** - Seamless integration with Wix services and APIs
-- **Modern UI Components** - Radix UI components with custom styling
-- **Authentication** - Built-in member authentication and protected routes
-- **CMS Integration** - Content management system integration
-- **Client-side Routing** - React Router for seamless navigation
-- **Responsive Design** - Mobile-first responsive design
-- **Testing** - Vitest testing framework setup
-- **Development Tools** - ESLint, TypeScript checking, and more
+- **AI-Powered Analytics** - Intelligent data analysis and predictive insights
+- **Real-Time Monitoring** - Live dashboards and alerts for key metrics
+- **Data Visualization** - Interactive charts and graphs using Recharts
+- **Responsive Design** - Mobile-first approach with touch-friendly interfaces
+- **Authentication** - Secure member authentication and protected routes
+- **CMS Integration** - Content management system for dynamic content
+- **Client-side Routing** - Seamless navigation with React Router
+- **Modern UI Components** - Comprehensive component library with Radix UI
+- **TypeScript Support** - Full type safety and developer experience
+- **Testing Framework** - Vitest for reliable testing
+- **Build Optimization** - Fast builds with Vite and Astro
 
 ## 🛠️ Tech Stack
 
@@ -24,12 +23,13 @@ A modern, full-featured Wix Astro template built with React, TypeScript, and Tai
 - **Styling**: Tailwind CSS 3.4.14
 - **Language**: TypeScript 5.8.3
 - **UI Components**: Radix UI
-- **State Management**: Zustand
+- **Charts**: Recharts 3.0.2
+- **State Management**: Zustand 5.0.6
 - **Forms**: React Hook Form with Zod validation
-- **Testing**: Vitest
-- **Build Tool**: Vite
-- **Deployment**: Cloudflare
-
+- **Animations**: Framer Motion 12.5.0
+- **3D Graphics**: Three.js 0.177.0
+- **Testing**: Vitest 3.1.4
+- **Build Tool**: Vite 4.5.0
 
 ## 🚀 Getting Started
 
@@ -37,18 +37,18 @@ A modern, full-featured Wix Astro template built with React, TypeScript, and Tai
 
 - Node.js (version 18 or higher)
 - npm or yarn package manager
-- Wix account and site
 
 ### Installation
 
-1. **Install dependencies**:
+1. **Clone the repository**:
    ```bash
-   npm run install-template
+   git clone https://github.com/Ali-5427/Monito-AI-.git
+   cd monito-ai
    ```
 
-2. **Set up environment variables**:
+2. **Install dependencies**:
    ```bash
-   npm run env
+   npm install
    ```
 
 3. **Start development server**:
@@ -56,54 +56,58 @@ A modern, full-featured Wix Astro template built with React, TypeScript, and Tai
    npm run dev
    ```
 
-The development server will start and you can view your site at `http://localhost:4321`.
+The development server will start and you can view the application at `http://localhost:4321`.
 
 ## 📁 Project Structure
 
 ```
-main/
+monito-ai/
 ├── src/
 │   ├── components/          # React components
-│   │   ├── ui/             # Reusable UI components
+│   │   ├── ui/             # Reusable UI components (Radix UI)
+│   │   ├── pages/          # Page-specific components
+│   │   ├── Footer.tsx      # Footer component
+│   │   ├── Header.tsx      # Header component
 │   │   ├── Head.tsx        # Page head component
 │   │   └── Router.tsx      # Routing component
+│   ├── data/               # Static data files (JSON)
+│   ├── entities/           # TypeScript type definitions
 │   ├── hooks/              # Custom React hooks
 │   ├── lib/                # Utility functions
 │   ├── pages/              # Astro pages
-│   └── styles/             # Global styles
-├── integrations/           # Wix integrations
+│   └── styles/             # Global styles and fonts
+├── integrations/           # External service integrations
 │   ├── cms/               # CMS integration
-│   └── members/           # Member authentication
-├── public/                # Static assets
+│   └── errorHandlers/     # Error handling components
+├── public/                # Static assets and images
 └── eslint-rules/          # Custom ESLint rules
 ```
 
 ## 🎨 UI Components
 
-This template includes a comprehensive set of UI components built with Radix UI and styled with Tailwind CSS:
+The application includes a comprehensive set of UI components:
 
-- **Layout**: Accordion, Collapsible, Tabs, Sheet
-- **Forms**: Input, Select, Checkbox, Radio Group, Switch
+- **Layout**: Accordion, Collapsible, Tabs, Sheet, Resizable Panels
+- **Forms**: Input, Select, Checkbox, Radio Group, Switch, OTP Input
 - **Navigation**: Navigation Menu, Menubar, Breadcrumb
-- **Feedback**: Alert, Toast, Progress, Skeleton
-- **Overlays**: Dialog, Popover, Tooltip, Hover Card
-- **Data Display**: Table, Card, Badge, Avatar
-- **Interactive**: Button, Toggle, Slider, Command
+- **Feedback**: Alert, Toast, Progress, Skeleton, Loading Spinner
+- **Overlays**: Dialog, Popover, Tooltip, Hover Card, Context Menu
+- **Data Display**: Table, Card, Badge, Avatar, Calendar
+- **Interactive**: Button, Toggle, Slider, Command Palette
+- **Charts**: Recharts integration for data visualization
+- **3D**: Three.js components for advanced visualizations
 
 ## 🔧 Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
-- `npm run release` - Release to Wix
-- `npm run env` - Pull environment variables
 - `npm run check` - Type check with Astro
-- `npm run test:run` - Run tests
-- `npm run install-template` - Install dependencies
+- `npm run test:run` - Run tests with Vitest
 
 ## 🧪 Testing
 
-The project includes Vitest for testing:
+Run the test suite using Vitest:
 
 ```bash
 npm run test:run
@@ -111,36 +115,47 @@ npm run test:run
 
 ## 📱 Responsive Design
 
-The template is built with a mobile-first approach and includes:
+Monito AI is built with a mobile-first approach, ensuring optimal user experience across all devices:
 
-- Responsive breakpoints
+- Responsive breakpoints and flexible layouts
 - Touch-friendly interactions
-- Optimized images
-- Flexible layouts
+- Optimized images and assets
+- Adaptive UI components
 
 ## 🚀 Deployment
 
-The template is configured for deployment on Cloudflare:
+The application is configured for modern deployment platforms:
 
 ```bash
 npm run build
 ```
 
+The build output is optimized for static hosting and can be deployed to platforms like Vercel, Netlify, or Cloudflare Pages.
+
 ## 🤝 Contributing
 
+We welcome contributions! Please follow these steps:
+
 1. Fork the repository
-2. Create a feature branch
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes
-4. Run tests and linting
-5. Submit a pull request
+4. Run tests and linting (`npm run check && npm run test:run`)
+5. Commit your changes (`git commit -m 'Add amazing feature'`)
+6. Push to the branch (`git push origin feature/amazing-feature`)
+7. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🆘 Support
 
 For support and questions:
 
+- Check the [Issues](https://github.com/Ali-5427/Monito-AI-/issues) page
 - Review the [Astro Documentation](https://docs.astro.build/)
-
+- Join our community discussions
 
 ---
 
-Built with ❤️ using Wix Vibe, Astro, and modern web technologies.
+Built with ❤️ using Astro, React, and cutting-edge web technologies.
